@@ -1,0 +1,16 @@
+2020-11-24T15:03:12.627Z - info:   [720654] *** FOLDER: /home/marciomafidejurodrigues/Projects/DotNet/GradeBook ***
+2020-11-24T15:03:12.630Z - info:   [720654] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-11-24T15:03:12.635Z - warn:   [720654] TFVC Couldn't find where the TF command lives on disk.
+2020-11-24T15:03:12.636Z - error:  [720654] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-11-24T15:03:43.267Z - info:   [720654] *** FOLDER: /home/marciomafidejurodrigues/Projects/DotNet/GradeBook ***
+2020-11-24T15:03:43.267Z - info:   [720654] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-11-24T15:03:43.282Z - warn:   [720654] TFVC Couldn't find where the TF command lives on disk.
+2020-11-24T15:03:43.282Z - error:  [720654] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-11-24T15:04:23.080Z - info:   [720654] *** FOLDER: /home/marciomafidejurodrigues/Projects/DotNet/GradeBook ***
+2020-11-24T15:04:23.082Z - info:   [720654] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-11-24T15:04:23.101Z - warn:   [720654] TFVC Couldn't find where the TF command lives on disk.
+2020-11-24T15:04:23.102Z - error:  [720654] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-11-24T15:19:03.416Z - info:   [720654] *** FOLDER: /home/marciomafidejurodrigues/Projects/DotNet/GradeBook ***
+2020-11-24T15:19:03.416Z - info:   [720654] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-11-24T15:19:03.452Z - warn:   [720654] TFVC Couldn't find where the TF command lives on disk.
+2020-11-24T15:19:03.452Z - error:  [720654] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
