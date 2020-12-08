@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DdNDzBMcyV/MALL9s3fQKP7kur39z8bj2QyJHpKcoiGhu029zCazul07hPWaqIAN3KUKRUCfFaOEprDJuX+RlQ==",
+  "dgSpecHash": "ex1DqWpfvl7zXvokQu4pQGueBhbRMOtHv/aj94RzWffmXFh8jtsE4Uj6rEFCAy7AIfyNkXd5yuKR+oUfmnhdVw==",
   "success": true,
   "projectFilePath": "/home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/GradeBook.Tests.csproj",
   "expectedPackageFiles": [

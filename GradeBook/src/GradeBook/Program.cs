@@ -11,10 +11,14 @@ namespace GradeBook
             sumArray();
             sumList();
             
-            var book = new Book();
+            var book = new Book("");
             book.AddGrade(99.9);
             book.AddGrade(70);
-            book.showStats();
+
+            var stats = book.showStats();
+            Console.WriteLine($"Alta: {stats.High}, Baixa: {stats.Low}, Média:{stats.Average:N2}");
+
+            
         }
 
         static void sum() 

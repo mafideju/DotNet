@@ -14,3 +14,7 @@
 2020-11-24T15:19:03.416Z - info:   [720654] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
 2020-11-24T15:19:03.452Z - warn:   [720654] TFVC Couldn't find where the TF command lives on disk.
 2020-11-24T15:19:03.452Z - error:  [720654] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
+2020-12-07T18:24:18.695Z - info:   [140287] *** FOLDER: /home/marciomafidejurodrigues/Projects/DotNet/GradeBook ***
+2020-12-07T18:24:18.696Z - info:   [140287] AzureReposVSCode/1.161.1 (VSCode 1.49.0; Linux 5.8.8-200.fc32.x86_64; Node 12.14.1)
+2020-12-07T18:24:18.698Z - warn:   [140287] TFVC Couldn't find where the TF command lives on disk.
+2020-12-07T18:24:18.698Z - error:  [140287] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.

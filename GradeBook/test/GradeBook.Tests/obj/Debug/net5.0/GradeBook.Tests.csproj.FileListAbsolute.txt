@@ -97,3 +97,6 @@
 /home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/obj/Debug/net5.0/ref/GradeBook.Tests.dll
 /home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/obj/Debug/net5.0/GradeBook.Tests.pdb
 /home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/obj/Debug/net5.0/GradeBook.Tests.genruntimeconfig.cache
+/home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook
+/home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.dll
+/home/marciomafidejurodrigues/Projects/DotNet/GradeBook/test/GradeBook.Tests/bin/Debug/net5.0/GradeBook.pdb
