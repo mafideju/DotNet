@@ -29,5 +29,14 @@ namespace GradeBook.Tests
             Assert.Equal(10.11, stats.Low);
             Assert.Equal(50, stats.Average);
         }
+
+        [Fact]
+        public void GradeBasicValidator()
+        {
+            var book = new Book("");
+            book.AddGrade(105);
+
+            
+        }
     }
 }

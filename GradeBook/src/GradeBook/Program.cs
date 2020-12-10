@@ -13,7 +13,10 @@ namespace GradeBook
             
             var book = new Book("");
             book.AddGrade(99.9);
-            book.AddGrade(70);
+            book.AddGrade(70.86);
+            book.AddGrade(17.05);
+            book.AddGrade(105);
+            book.AddGrade(351.05);
 
             var stats = book.showStats();
             Console.WriteLine($"Alta: {stats.High}, Baixa: {stats.Low}, Média:{stats.Average:N2}");
@@ -33,7 +36,7 @@ namespace GradeBook
         static void sumArray()
         {
             // console.log()
-            var numbers = new[] { 12.05, 23.57, 54.39 };
+            var numbers = new[] { 12.05, 23.57, 54.39, -12 };
             var result = 0.0;
 
             foreach(var number in numbers)

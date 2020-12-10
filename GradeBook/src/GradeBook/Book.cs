@@ -6,17 +6,25 @@ namespace GradeBook
     public class Book
     {
         private List<double> grades;
-        string name;
+        public string _name;
 
         public Book(string name)
         {
             grades = new List<double>();
-            this.name = name;
+            _name = name;
         }
 
         public void AddGrade(double grade)
         {
-            grades.Add(grade);
+            if(grade <= 100 && grade >= 0)
+            {
+                grades.Add(grade);
+                // System.Console.WriteLine(grade);
+            }
+            else
+            {
+                Console.WriteLine($"Valor {grade} não permitido");
+            }
         }
 
         public Stats showStats()
