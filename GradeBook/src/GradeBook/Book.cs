@@ -23,7 +23,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine($"Valor {grade} não permitido");
+                Console.WriteLine($"Valor {grade} de {nameof(grade)} não permitido");
             }
         }
 

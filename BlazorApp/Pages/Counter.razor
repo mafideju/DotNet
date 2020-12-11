@@ -1,0 +1,30 @@
+@page "/counter"
+
+<h1>Contador</h1>
+
+<p>Contagem Atual: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Aumentar</button>
+<button class="btn btn-primary" @onclick="DecrementCount">Diminuir</button>
+<button class="btn btn-primary" @onclick="ZeroCount">Zerar</button>
+
+@code {
+    private int currentCount = 0;
+
+    [Parameter]
+    public int IncrementAmount { get; set; } = 5;
+
+    private void IncrementCount()
+    {
+        currentCount += IncrementAmount;
+    }
+    private void DecrementCount()
+    {
+        currentCount -= IncrementAmount;
+    }
+
+    private void ZeroCount()
+    {
+        currentCount = 0;
+    }
+}
