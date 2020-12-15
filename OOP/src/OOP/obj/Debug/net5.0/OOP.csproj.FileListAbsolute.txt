@@ -1,0 +1,16 @@
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP.deps.json
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP.runtimeconfig.json
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP.runtimeconfig.dev.json
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP.dll
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/ref/OOP.dll
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/bin/Debug/net5.0/OOP.pdb
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.csprojAssemblyReference.cache
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.AssemblyInfoInputs.cache
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.AssemblyInfo.cs
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.csproj.CoreCompileInputs.cache
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.dll
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/ref/OOP.dll
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.pdb
+/home/marciomafidejurodrigues/Projects/DotNet/OOP/src/OOP/obj/Debug/net5.0/OOP.genruntimeconfig.cache
