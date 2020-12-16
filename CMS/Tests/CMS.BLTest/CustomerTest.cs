@@ -32,5 +32,30 @@ namespace CMS.BLTest
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void ValidateTestValid()
+        {
+            Customer customer = new Customer();
+            customer.LastName = "Baggins";
+            customer.EmailAddress = "baggins@hobbits.us";
+
+            bool expected = true;
+            var actual = customer.Validate();
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateTestMissingParts()
+        {
+            Customer customer = new Customer();
+            customer.EmailAddress = "baggins@hobbits.us";
+
+            bool expected = false;
+            var actual = customer.Validate();
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
