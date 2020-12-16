@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace OOP
+﻿namespace OOP
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var calculator = new Calculator();
+            calculator.Calculate();
         }
     }
 }
