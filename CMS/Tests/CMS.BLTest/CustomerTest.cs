@@ -10,9 +10,11 @@ namespace CMS.BLTest
         [TestMethod]
         public void FullNameTestValid()
         {
-            Customer customer = new Customer();
-            customer.FirstName = "Bilbo";
-            customer.LastName = "Baggins";
+            Customer customer = new Customer
+            {
+                FirstName = "Bilbo",
+                LastName = "Baggins"
+            };
 
             string expected = "Bilbo Baggins";
             string actual = customer.FullName;
@@ -24,8 +26,10 @@ namespace CMS.BLTest
         [TestMethod]
         public void FullNameTestInvalid()
         {
-            Customer customer = new Customer();
-            customer.FirstName = "Bilbo";
+            Customer customer = new Customer
+            {
+                FirstName = "Bilbo"
+            };
 
             string expected = "Bilbo";
             string actual = customer.FullName;
@@ -36,9 +40,11 @@ namespace CMS.BLTest
         [TestMethod]
         public void ValidateTestValid()
         {
-            Customer customer = new Customer();
-            customer.LastName = "Baggins";
-            customer.EmailAddress = "baggins@hobbits.us";
+            Customer customer = new Customer
+            {
+                LastName = "Baggins",
+                EmailAddress = "baggins@hobbits.us"
+            };
 
             bool expected = true;
             var actual = customer.Validate();
@@ -49,8 +55,10 @@ namespace CMS.BLTest
         [TestMethod]
         public void ValidateTestMissingParts()
         {
-            Customer customer = new Customer();
-            customer.EmailAddress = "baggins@hobbits.us";
+            Customer customer = new Customer
+            {
+                EmailAddress = "baggins@hobbits.us"
+            };
 
             bool expected = false;
             var actual = customer.Validate();

@@ -41,8 +41,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="CustomerRepository.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="OrderRepository.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\CMS.BL.dll" />
+    <Content Include="bin\Debug\CMS.BL.pdb" />
+    <Content Include="obj\Debug\CMS.BL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\CMS.BL.dll" />
+    <Content Include="obj\Debug\CMS.BL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\CMS.BL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\CMS.BL.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

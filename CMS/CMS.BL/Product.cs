@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CMS.BL
 {
-    class Product
+    public class Product
     {
         public Product()
         {
@@ -30,21 +30,6 @@ namespace CMS.BL
             if (CurrentPrice == null) isValid = false;
 
             return isValid;
-        }
-
-        public List<Product> Retrieve()
-        {
-            return new List<Product>();
-        }
-
-        public Product Retrieve(int productId)
-        {
-            return new Product();
-        }
-
-        public bool Save()
-        {
-            return true;
         }
     }
 }

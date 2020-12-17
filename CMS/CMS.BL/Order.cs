@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CMS.BL
 {
-    class Order
+    public class Order
     {
         public Order()
         {
@@ -27,21 +27,6 @@ namespace CMS.BL
             if (OrderDate == null) isValid = false;
 
             return isValid;
-        }
-
-        public List<Order> Retrieve()
-        {
-            return new List<Order>();
-        }
-
-        public Order Retrieve(int productId)
-        {
-            return new Order();
-        }
-
-        public bool Save()
-        {
-            return true;
         }
     }
 }
